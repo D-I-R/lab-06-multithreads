@@ -6,7 +6,7 @@
 #include "../include/HashFinder.h"
 
 void log_setup() {
-    boost::log::register_simple_formatter_factory
+  a  boost::log::register_simple_formatter_factory
             <boost::log::trivial::severity_level, char>("Severity");
 
     //Setting log ...
